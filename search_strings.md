@@ -1,7 +1,11 @@
 *Termo amplo*: 
 Query string
-AllField:((rdf) AND (summarization OR optimization)) AND AllField:(("query answering" OR "query building" OR "sparql"))
+TITLE-ABS-KEY ( ( rdf  OR  "semantic graph"  OR  "Knowledge graph" )  AND  ( summarization  OR  optimization ) ) 
 
-Full query syntax
-query": { AllField:((rdf) AND (summarization OR optimization)) AND AllField:(("query answering" OR "query building" OR "sparql")) }
-"filter": { Publication Date: (01/01/2004 TO 12/31/2020), NOT VirtualContent: true, ACM Content: DL }
+
+*Termo Intermediário*:
+( TITLE-ABS-KEY ( ( rdf  OR  "Knowledge graph" )  AND  ( summarization  OR  optimization ) )  AND  TITLE-ABS-KEY ( ( query  AND  ( answering  OR  building  OR  optmization )  OR  sparql ) ) ) 
+
+
+*Termo Restrito*:
+( TITLE-ABS-KEY ( ( rdf  OR  "Knowledge graph" )  AND  ( summarization  OR  optimization ) )  AND  TITLE-ABS-KEY ( ( query  AND  ( answering  OR  building  OR  optmization )  OR  sparql ) ) ) 
