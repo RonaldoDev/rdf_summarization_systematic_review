@@ -1,4 +1,4 @@
-**Termo amplo*: 
+**Termo amplo**: 
 
 TITLE-ABS-KEY ( ( rdf  OR  "semantic graph"  OR  "Knowledge graph" )  AND  ( summarization  OR  optimization ) ) 
 
